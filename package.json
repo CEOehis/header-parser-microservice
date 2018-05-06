@@ -1,0 +1,19 @@
+{
+  "name": "header-parser-microservice",
+  "version": "1.0.0",
+  "description": "A NodeJS microservice that parses an incoming request and fetches the IP address, language and OS of the request source",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express"
+  ],
+  "author": "Celestine Ekoh-Ordan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
